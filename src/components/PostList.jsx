@@ -9,10 +9,6 @@ function PostList ({ isPosting, onStopPosting }) {
     const [enteredBody, setEnteredBody] = useState('');
     const [enteredAuthor, setEnteredAuthor] = useState('');
 
-    function hideModalHandler(){
-        setmodalIsVisible(false);
-    }
-
     function bodyChangeHandler(e){
         setEnteredBody(e.target.value);
     }
